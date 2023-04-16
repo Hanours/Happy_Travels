@@ -1,9 +1,10 @@
-html { box-sizing: border-box; }
+html { box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
 *, ::before, ::after { box-sizing: inherit; }
 
 
 body{ 
 font-family: 'Montserrat', sans-serif;
+background-color: #FAFAFA;
 }
 
 h1{ 
@@ -93,7 +94,7 @@ ul{
 @media screen and (max-width: 640px) {
 
  .body {
-    max-width: 600px;
+    max-width: 640px;
 }
 
 .obrazek_happy{
@@ -123,8 +124,6 @@ h1{display: block;
     height: 84px;
     text-align: center;
 }
-
- 
 
 .tlacitko1{
     margin-bottom: 10px;
